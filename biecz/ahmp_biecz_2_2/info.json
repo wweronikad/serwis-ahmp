@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/image/3/context.json",
-  "id": "https://wweronikad.github.io/serwis-ahmp/serwis-ahmp/biecz/ahmp_biecz_2_2",
+  "id": "https://wweronikad.github.io/serwis-ahmp/biecz/ahmp_biecz_2_2",
   "type": "ImageService3",
   "profile": "level0",
   "protocol": "http://iiif.io/api/image",
