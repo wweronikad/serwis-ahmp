@@ -1,0 +1,167 @@
+{
+  "type": "AnnotationPage",
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "items": [
+    {
+      "id": "https://annotations.allmaps.org/maps/8639356ff7b3eaa6",
+      "type": "Annotation",
+      "@context": [
+        "http://iiif.io/api/extension/georef/1/context.json",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "motivation": "georeferencing",
+      "target": {
+        "type": "SpecificResource",
+        "source": {
+          "id": "https://wweronikad.github.io/serwis-ahmp/gizycko/ahmp_gizycko_ii_21",
+          "type": "ImageService3",
+          "height": 5572,
+          "width": 7624
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"7624\" height=\"5572\"><polygon points=\"14,17 7,5567 7621,5565 7619,13\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "transformation": {
+          "type": "polynomial",
+          "options": {
+            "order": 1
+          }
+        },
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                3535,
+                2548
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                21.767751028441268,
+                54.03657840307053
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                3378,
+                2590
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                21.764622069961007,
+                54.03619133013812
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                2709,
+                2530
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                21.751816447790304,
+                54.03687660414093
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                1334,
+                3122
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                21.725037417535617,
+                54.03021830425566
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                3673,
+                1032
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                21.77117812130021,
+                54.05384912918789
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                5033,
+                3237
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                21.796969708096213,
+                54.02869395723346
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                6033,
+                2201
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                21.816408338886305,
+                54.04070904943842
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                1631,
+                4807
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                21.730816017273384,
+                54.011159590697645
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

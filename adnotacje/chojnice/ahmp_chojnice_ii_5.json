@@ -1,0 +1,119 @@
+{
+  "type": "AnnotationPage",
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "items": [
+    {
+      "id": "https://annotations.allmaps.org/maps/edd80b236d8ef161",
+      "type": "Annotation",
+      "@context": [
+        "http://iiif.io/api/extension/georef/1/context.json",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "motivation": "georeferencing",
+      "target": {
+        "type": "SpecificResource",
+        "source": {
+          "id": "https://wweronikad.github.io/serwis-ahmp/chojnice/ahmp_chojnice_ii_5",
+          "type": "ImageService3",
+          "height": 3961,
+          "width": 5715
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"5715\" height=\"3961\"><polygon points=\"770,237 761,3783 4956,3800 4976,256\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "transformation": {
+          "type": "polynomial",
+          "options": {
+            "order": 1
+          }
+        },
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                2409,
+                2512
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                17.56303484531466,
+                53.69531746168374
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                2346,
+                2518
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                17.560747250282816,
+                53.69523416825365
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                1953,
+                586
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                17.54472967365129,
+                53.74016421446939
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                3645,
+                546
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                17.611593132974747,
+                53.74152156125726
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                4451,
+                3211
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                17.643996159981867,
+                53.6794046557431
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

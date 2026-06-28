@@ -1,0 +1,45 @@
+{
+  "type": "AnnotationPage",
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "items": [
+    {
+      "id": "https://annotations.allmaps.org/maps/95761ad4f100173c",
+      "type": "Annotation",
+      "@context": [
+        "http://iiif.io/api/extension/georef/1/context.json",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "motivation": "georeferencing",
+      "target": {
+        "type": "SpecificResource",
+        "source": {
+          "id": "https://wweronikad.github.io/serwis-ahmp/bochnia/ahmp_bochnia_b3_8",
+          "type": "ImageService3",
+          "height": 8032,
+          "width": 5788
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"5788\" height=\"8032\"><polygon points=\"173,127 172,7802 5605,7801 5606,124\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "transformation": {
+          "type": "polynomial",
+          "options": {
+            "order": 1
+          }
+        },
+        "features": [
+          {"type": "Feature", "properties": {"resourceCoords": [2568, 2103]}, "geometry": {"type": "Point", "coordinates": [20.428001675542532, 49.96938654171973]}},
+          {"type": "Feature", "properties": {"resourceCoords": [2800, 2157]}, "geometry": {"type": "Point", "coordinates": [20.428711557481193, 49.96928561035176]}},
+          {"type": "Feature", "properties": {"resourceCoords": [2981, 1886]}, "geometry": {"type": "Point", "coordinates": [20.429256867609098, 49.969811410944175]}},
+          {"type": "Feature", "properties": {"resourceCoords": [233, 2908]}, "geometry": {"type": "Point", "coordinates": [20.420978333655597, 49.96780206643524]}},
+          {"type": "Feature", "properties": {"resourceCoords": [297, 781]}, "geometry": {"type": "Point", "coordinates": [20.421130090953312, 49.971940509032805]}},
+          {"type": "Feature", "properties": {"resourceCoords": [4722, 2995]}, "geometry": {"type": "Point", "coordinates": [20.434532240805936, 49.96770589953144]}}
+        ]
+      }
+    }
+  ]
+}

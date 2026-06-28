@@ -1,0 +1,89 @@
+{
+  "type": "AnnotationPage",
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "items": [
+    {
+      "id": "https://annotations.allmaps.org/maps/1601749f4d7c15cd",
+      "type": "Annotation",
+      "@context": [
+        "http://iiif.io/api/extension/georef/1/context.json",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "motivation": "georeferencing",
+      "target": {
+        "type": "SpecificResource",
+        "source": {
+          "id": "https://wweronikad.github.io/serwis-ahmp/jelenia-gora/ahmp_jelenia_gora_ii_3-4",
+          "type": "ImageService3",
+          "height": 7914,
+          "width": 5752
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"5752\" height=\"7914\"><polygon points=\"165,168 166,3840 5585,3839 5585,169\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "transformation": {
+          "type": "polynomial",
+          "options": {
+            "order": 1
+          }
+        },
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [3449, 1610]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [15.73413965847442, 50.90344050857516]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [3628, 1649]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [15.734472921486287, 50.90323366112824]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [2553, 1667]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [15.732266626023234, 50.904103491464895]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [4471, 1094]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [15.73694556664455, 50.90331333778167]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [4838, 1247]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [15.737520712227678, 50.902840638405024]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

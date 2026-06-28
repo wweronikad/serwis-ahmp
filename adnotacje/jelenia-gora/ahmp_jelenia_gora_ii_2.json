@@ -1,0 +1,151 @@
+{
+  "type": "AnnotationPage",
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "items": [
+    {
+      "id": "https://annotations.allmaps.org/maps/5cfa57109935a96f",
+      "type": "Annotation",
+      "@context": [
+        "http://iiif.io/api/extension/georef/1/context.json",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "motivation": "georeferencing",
+      "target": {
+        "type": "SpecificResource",
+        "source": {
+          "id": "https://wweronikad.github.io/serwis-ahmp/jelenia-gora/ahmp_jelenia_gora_ii_2",
+          "type": "ImageService3",
+          "height": 11504,
+          "width": 7914
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"7914\" height=\"11504\"><polygon points=\"220,219 219,8849 7668,8846 7669,5557 7668,220\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "transformation": {
+          "type": "polynomial",
+          "options": {
+            "order": 1
+          }
+        },
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                3948,
+                1636
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                15.735660619552078,
+                50.90638951756188
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                3916,
+                1676
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                15.734561418423908,
+                50.90542976923217
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                3092,
+                645
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                15.707747157658929,
+                50.92356217349328
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                3703,
+                770
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                15.726541990806053,
+                50.921509407917654
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                5525,
+                2424
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                15.78716208091967,
+                50.89342358257065
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                5865,
+                2941
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                15.797805857809493,
+                50.883930523752156
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                4801,
+                4420
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                15.766232231892817,
+                50.85608793346336
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

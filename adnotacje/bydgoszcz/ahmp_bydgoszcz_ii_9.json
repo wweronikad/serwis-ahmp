@@ -1,0 +1,79 @@
+{
+  "type": "AnnotationPage",
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "items": [
+    {
+      "id": "https://annotations.allmaps.org/maps/2455d041665dbde7",
+      "type": "Annotation",
+      "@context": [
+        "http://iiif.io/api/extension/georef/1/context.json",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "motivation": "georeferencing",
+      "target": {
+        "type": "SpecificResource",
+        "source": {
+          "id": "https://wweronikad.github.io/serwis-ahmp/bydgoszcz/ahmp_bydgoszcz_ii_9",
+          "type": "ImageService3",
+          "height": 5842,
+          "width": 8174
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"8174\" height=\"5842\"><polygon points=\"133,215 128,5703 8125,5701 8124,215\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "transformation": {
+          "type": "polynomial",
+          "options": {
+            "order": 1
+          }
+        },
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [3469, 2587]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [17.99911522298453, 53.12303378339453]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [3857, 2593]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [18.00076757120786, 53.12223606475357]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [3775, 2420]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [18.00094607956993, 53.1228676490343]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [5314, 2522]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [18.007159383414205, 53.119761213256766]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "type": "AnnotationPage",
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "items": [
+    {
+      "id": "https://annotations.allmaps.org/maps/5457a6eb45f76298",
+      "type": "Annotation",
+      "@context": [
+        "http://iiif.io/api/extension/georef/1/context.json",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "motivation": "georeferencing",
+      "target": {
+        "type": "SpecificResource",
+        "source": {
+          "id": "https://wweronikad.github.io/serwis-ahmp/bochnia/ahmp_bochnia_b3_1",
+          "type": "ImageService3",
+          "height": 5788,
+          "width": 8032
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"8032\" height=\"5788\"><polygon points=\"179,93 178,5529 7855,5527 7854,94\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "transformation": {
+          "type": "polynomial",
+          "options": {
+            "order": 1
+          }
+        },
+        "features": [
+          {"type": "Feature", "properties": {"resourceCoords": [1121, 2611]}, "geometry": {"type": "Point", "coordinates": [20.385963874492404, 49.97802478812187]}},
+          {"type": "Feature", "properties": {"resourceCoords": [1662, 3379]}, "geometry": {"type": "Point", "coordinates": [20.398708601693414, 49.962276152129846]}},
+          {"type": "Feature", "properties": {"resourceCoords": [3637, 790]}, "geometry": {"type": "Point", "coordinates": [20.45843599339571, 50.011918306430914]}},
+          {"type": "Feature", "properties": {"resourceCoords": [3876, 2244]}, "geometry": {"type": "Point", "coordinates": [20.465397157467493, 49.98427572818068]}},
+          {"type": "Feature", "properties": {"resourceCoords": [3789, 3004]}, "geometry": {"type": "Point", "coordinates": [20.459966413546766, 49.96933271302126]}},
+          {"type": "Feature", "properties": {"resourceCoords": [3791, 4093]}, "geometry": {"type": "Point", "coordinates": [20.46587447417545, 49.94807095830936]}},
+          {"type": "Feature", "properties": {"resourceCoords": [3180, 4512]}, "geometry": {"type": "Point", "coordinates": [20.445625356307147, 49.94109671243976]}},
+          {"type": "Feature", "properties": {"resourceCoords": [2406, 4640]}, "geometry": {"type": "Point", "coordinates": [20.42267636979244, 49.937838741945825]}},
+          {"type": "Feature", "properties": {"resourceCoords": [1668, 4534]}, "geometry": {"type": "Point", "coordinates": [20.40142726771532, 49.940320548550005]}}
+        ]
+      }
+    }
+  ]
+}

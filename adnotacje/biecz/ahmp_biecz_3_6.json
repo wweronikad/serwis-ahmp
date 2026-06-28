@@ -1,0 +1,45 @@
+{
+  "type": "AnnotationPage",
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "items": [
+    {
+      "id": "https://annotations.allmaps.org/maps/df6ef99ef6bd3bde",
+      "type": "Annotation",
+      "@context": [
+        "http://iiif.io/api/extension/georef/1/context.json",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "motivation": "georeferencing",
+      "target": {
+        "type": "SpecificResource",
+        "source": {
+          "id": "https://wweronikad.github.io/serwis-ahmp/biecz/ahmp_biecz_3_6",
+          "type": "ImageService3",
+          "height": 5963,
+          "width": 8207
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"8207\" height=\"5963\"><polygon points=\"178,153 177,5743 8030,5744 8032,150\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "transformation": {
+          "type": "polynomial",
+          "options": {
+            "order": 1
+          }
+        },
+        "features": [
+          {"type": "Feature", "properties": {"resourceCoords": [262, 2127]}, "geometry": {"type": "Point", "coordinates": [21.216835332548527, 49.7394027016004]}},
+          {"type": "Feature", "properties": {"resourceCoords": [5196, 174]}, "geometry": {"type": "Point", "coordinates": [21.281221419339005, 49.755195546234546]}},
+          {"type": "Feature", "properties": {"resourceCoords": [5945, 941]}, "geometry": {"type": "Point", "coordinates": [21.290739819785898, 49.74860261389267]}},
+          {"type": "Feature", "properties": {"resourceCoords": [4128, 5660]}, "geometry": {"type": "Point", "coordinates": [21.26584358066887, 49.709319187068616]}},
+          {"type": "Feature", "properties": {"resourceCoords": [2960, 3348]}, "geometry": {"type": "Point", "coordinates": [21.251377818545194, 49.72882023218392]}},
+          {"type": "Feature", "properties": {"resourceCoords": [3176, 3572]}, "geometry": {"type": "Point", "coordinates": [21.254097889993915, 49.72705786743279]}}
+        ]
+      }
+    }
+  ]
+}

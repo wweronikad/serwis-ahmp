@@ -1,0 +1,149 @@
+{
+  "type": "AnnotationPage",
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "items": [
+    {
+      "id": "https://annotations.allmaps.org/maps/87b9609e42c57e30",
+      "type": "Annotation",
+      "@context": [
+        "http://iiif.io/api/extension/georef/1/context.json",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "motivation": "georeferencing",
+      "target": {
+        "type": "SpecificResource",
+        "source": {
+          "id": "https://wweronikad.github.io/serwis-ahmp/bydgoszcz/ahmp_bydgoszcz_ii_6",
+          "type": "ImageService3",
+          "height": 4078,
+          "width": 5815
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"5815\" height=\"4078\"><polygon points=\"239,311 233,3850 5594,3848 5595,316\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "transformation": {
+          "type": "polynomial",
+          "options": {
+            "order": 1
+          }
+        },
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [2508, 1670]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [17.999972412312246, 53.122376619123635]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [3185, 1696]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [18.00120038117319, 53.122102235459714]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [3116, 2283]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [18.000837869090134, 53.12148486581271]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [1794, 1232]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [17.998872190957854, 53.123022293434246]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [2427, 2796]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [17.999268435836, 53.121148832990286]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [1980, 2276]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [17.99867277939552, 53.121833433544644]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [3090, 2804]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [18.00056804988739, 53.12091701957212]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [2487, 2894]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [17.999264825796104, 53.12102967671666]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [3184, 2588]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [18.000814563514183, 53.121144130770595]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [2908, 1125]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [18.000942456364527, 53.12287491185382]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [1480, 2762]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [17.997504650798135, 53.12146442006411]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

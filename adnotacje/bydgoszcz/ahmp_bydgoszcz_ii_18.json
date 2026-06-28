@@ -1,0 +1,119 @@
+{
+  "type": "AnnotationPage",
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "items": [
+    {
+      "id": "https://annotations.allmaps.org/maps/63d23ea2d4f84c30",
+      "type": "Annotation",
+      "@context": [
+        "http://iiif.io/api/extension/georef/1/context.json",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "motivation": "georeferencing",
+      "target": {
+        "type": "SpecificResource",
+        "source": {
+          "id": "https://wweronikad.github.io/serwis-ahmp/bydgoszcz/ahmp_bydgoszcz_ii_18",
+          "type": "ImageService3",
+          "height": 4101,
+          "width": 5822
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"5822\" height=\"4101\"><polygon points=\"377,283 365,3857 5458,3861 5473,290\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "transformation": {
+          "type": "polynomial",
+          "options": {
+            "order": 1
+          }
+        },
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [3065, 2220]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [17.999016428191965, 53.12249560672982]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [3053, 2169]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [17.998862976761927, 53.12302510461026]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [2881, 1213]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [17.9955915966232, 53.134595352101535]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [3310, 2157]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [18.00378770929234, 53.123118334461736]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [4148, 618]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [18.020438628657132, 53.141651019143204]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [2162, 2237]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [17.98126927278551, 53.12246911075339]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [2849, 2185]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [17.994625755017097, 53.12290790031639]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [3666, 2471]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [18.010831807134366, 53.11939806981875]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

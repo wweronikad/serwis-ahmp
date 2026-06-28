@@ -1,0 +1,43 @@
+{
+  "type": "AnnotationPage",
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "items": [
+    {
+      "id": "https://annotations.allmaps.org/maps/671bf4c4bb37891e",
+      "type": "Annotation",
+      "@context": [
+        "http://iiif.io/api/extension/georef/1/context.json",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "motivation": "georeferencing",
+      "target": {
+        "type": "SpecificResource",
+        "source": {
+          "id": "https://wweronikad.github.io/serwis-ahmp/biecz/ahmp_biecz_3_1",
+          "type": "ImageService3",
+          "height": 8207,
+          "width": 11750
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"11750\" height=\"8207\"><polygon points=\"1978,730 1979,7228 9770,7225 9773,733\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "transformation": {
+          "type": "polynomial",
+          "options": {
+            "order": 1
+          }
+        },
+        "features": [
+          {"type": "Feature", "properties": {"resourceCoords": [4858, 3899]}, "geometry": {"type": "Point", "coordinates": [21.251337802432914, 49.728812695784]}},
+          {"type": "Feature", "properties": {"resourceCoords": [5017, 4111]}, "geometry": {"type": "Point", "coordinates": [21.254090491291578, 49.72703330810924]}},
+          {"type": "Feature", "properties": {"resourceCoords": [5959, 6187]}, "geometry": {"type": "Point", "coordinates": [21.265813339947186, 49.70930933483811]}},
+          {"type": "Feature", "properties": {"resourceCoords": [2197, 2674]}, "geometry": {"type": "Point", "coordinates": [21.216843989505577, 49.73940910760004]}}
+        ]
+      }
+    }
+  ]
+}

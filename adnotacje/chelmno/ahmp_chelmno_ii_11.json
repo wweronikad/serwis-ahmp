@@ -1,0 +1,119 @@
+{
+  "type": "AnnotationPage",
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "items": [
+    {
+      "id": "https://annotations.allmaps.org/maps/77509cb875a8d32e",
+      "type": "Annotation",
+      "@context": [
+        "http://iiif.io/api/extension/georef/1/context.json",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "motivation": "georeferencing",
+      "target": {
+        "type": "SpecificResource",
+        "source": {
+          "id": "https://wweronikad.github.io/serwis-ahmp/chelmno/ahmp_chelmno_ii_11",
+          "type": "ImageService3",
+          "height": 4102,
+          "width": 5808
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"5808\" height=\"4102\"><polygon points=\"1000,469 996,3603 4745,3599 4743,471\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "transformation": {
+          "type": "polynomial",
+          "options": {
+            "order": 1
+          }
+        },
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [2364, 1720]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [18.422707608736914, 53.3491765336081]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [2354, 1768]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [18.423030373646867, 53.349051422877324]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [2411, 1872]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [18.424266940509455, 53.34911648050294]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [2367, 1614]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [18.421717423517492, 53.3494134943821]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [2256, 1482]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [18.420079552532343, 53.34901624257324]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [2756, 1774]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [18.4245758957193, 53.35127340874527]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [2117, 1697]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [18.42164225548305, 53.34781894981294]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [2285, 1252]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [18.418042856811923, 53.349639623381535]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

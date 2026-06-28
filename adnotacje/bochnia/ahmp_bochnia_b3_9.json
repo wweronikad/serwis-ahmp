@@ -1,0 +1,44 @@
+{
+  "type": "AnnotationPage",
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "items": [
+    {
+      "id": "https://annotations.allmaps.org/maps/bb511f2442482fbf",
+      "type": "Annotation",
+      "@context": [
+        "http://iiif.io/api/extension/georef/1/context.json",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "motivation": "georeferencing",
+      "target": {
+        "type": "SpecificResource",
+        "source": {
+          "id": "https://wweronikad.github.io/serwis-ahmp/bochnia/ahmp_bochnia_b3_9",
+          "type": "ImageService3",
+          "height": 5788,
+          "width": 4016
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"4016\" height=\"5788\"><polygon points=\"174,94 175,5526 3843,5526 3844,93\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "transformation": {
+          "type": "polynomial",
+          "options": {
+            "order": 1
+          }
+        },
+        "features": [
+          {"type": "Feature", "properties": {"resourceCoords": [1933, 3035]}, "geometry": {"type": "Point", "coordinates": [20.427999495937712, 49.96938650879824]}},
+          {"type": "Feature", "properties": {"resourceCoords": [1961, 3042]}, "geometry": {"type": "Point", "coordinates": [20.428711584829642, 49.96928593963298]}},
+          {"type": "Feature", "properties": {"resourceCoords": [2052, 3011]}, "geometry": {"type": "Point", "coordinates": [20.430835554047462, 49.9697524864917]}},
+          {"type": "Feature", "properties": {"resourceCoords": [240, 2131]}, "geometry": {"type": "Point", "coordinates": [20.387615623631746, 49.98301445970992]}},
+          {"type": "Feature", "properties": {"resourceCoords": [2715, 624]}, "geometry": {"type": "Point", "coordinates": [20.446060768228307, 50.006405463697405]}}
+        ]
+      }
+    }
+  ]
+}

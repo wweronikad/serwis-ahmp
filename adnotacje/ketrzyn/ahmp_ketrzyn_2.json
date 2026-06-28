@@ -1,0 +1,79 @@
+﻿{
+  "type": "AnnotationPage",
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "items": [
+    {
+      "id": "https://annotations.allmaps.org/maps/795ee586aebaeb75",
+      "type": "Annotation",
+      "@context": [
+        "http://iiif.io/api/extension/georef/1/context.json",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "motivation": "georeferencing",
+      "target": {
+        "type": "SpecificResource",
+        "source": {
+          "id": "https://wweronikad.github.io/serwis-ahmp/ketrzyn/ahmp_ketrzyn_2",
+          "type": "ImageService3",
+          "height": 8033,
+          "width": 5789
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"5789\" height=\"8033\"><polygon points=\"-2,1 2,8029 5788,8031 5784,3\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "transformation": {
+          "type": "polynomial",
+          "options": {
+            "order": 1
+          }
+        },
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [3272, 5322]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [21.372954717275775, 54.07474496874818]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [3932, 5413]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [21.377232967478477, 54.07437857785295]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [3992, 3321]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [21.37769587487955, 54.082336090831596]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [745, 3207]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [21.35670538876721, 54.082832299264965]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

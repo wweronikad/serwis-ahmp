@@ -1,0 +1,45 @@
+{
+  "type": "AnnotationPage",
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "items": [
+    {
+      "id": "https://annotations.allmaps.org/maps/dc71679a734defd6",
+      "type": "Annotation",
+      "@context": [
+        "http://iiif.io/api/extension/georef/1/context.json",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "motivation": "georeferencing",
+      "target": {
+        "type": "SpecificResource",
+        "source": {
+          "id": "https://wweronikad.github.io/serwis-ahmp/biecz/ahmp_biecz_3_2",
+          "type": "ImageService3",
+          "height": 4191,
+          "width": 5963
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"5963\" height=\"4191\"><polygon points=\"275,207 277,3913 5713,3909 5714,204\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "transformation": {
+          "type": "polynomial",
+          "options": {
+            "order": 1
+          }
+        },
+        "features": [
+          {"type": "Feature", "properties": {"resourceCoords": [1929, 2183]}, "geometry": {"type": "Point", "coordinates": [21.249709522500382, 49.730451711912195]}},
+          {"type": "Feature", "properties": {"resourceCoords": [1920, 2156]}, "geometry": {"type": "Point", "coordinates": [21.249591933701765, 49.73066804063495]}},
+          {"type": "Feature", "properties": {"resourceCoords": [1895, 2221]}, "geometry": {"type": "Point", "coordinates": [21.24928538572334, 49.730122658382214]}},
+          {"type": "Feature", "properties": {"resourceCoords": [1104, 1224]}, "geometry": {"type": "Point", "coordinates": [21.239072634582328, 49.73850489176911]}},
+          {"type": "Feature", "properties": {"resourceCoords": [3383, 1168]}, "geometry": {"type": "Point", "coordinates": [21.268655006572146, 49.73894504952483]}},
+          {"type": "Feature", "properties": {"resourceCoords": [2554, 2345]}, "geometry": {"type": "Point", "coordinates": [21.25779837155764, 49.72904114362822]}}
+        ]
+      }
+    }
+  ]
+}

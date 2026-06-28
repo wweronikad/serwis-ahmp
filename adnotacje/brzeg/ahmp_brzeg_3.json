@@ -1,0 +1,99 @@
+{
+  "type": "AnnotationPage",
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "items": [
+    {
+      "id": "https://annotations.allmaps.org/maps/d98683baaca1922d",
+      "type": "Annotation",
+      "@context": [
+        "http://iiif.io/api/extension/georef/1/context.json",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "motivation": "georeferencing",
+      "target": {
+        "type": "SpecificResource",
+        "source": {
+          "id": "https://wweronikad.github.io/serwis-ahmp/brzeg/ahmp_brzeg_3",
+          "type": "ImageService3",
+          "height": 5788,
+          "width": 8032
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"8032\" height=\"5788\"><polygon points=\"171,183 166,5603 7865,5603 7864,184\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "transformation": {
+          "type": "polynomial",
+          "options": {
+            "order": 1
+          }
+        },
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [3843, 1487]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [17.472480304627254, 50.863835534212456]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [4069, 1751]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [17.47316631308223, 50.863338001759644]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [4485, 2270]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [17.47442535624768, 50.862356636133114]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [1945, 1263]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [17.466771098961914, 50.86423181545703]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [1833, 1618]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [17.46644358577464, 50.86356196964874]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [694, 3283]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [17.463055582833704, 50.86037445261101]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

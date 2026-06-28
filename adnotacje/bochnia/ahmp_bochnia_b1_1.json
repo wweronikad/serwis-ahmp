@@ -1,0 +1,45 @@
+{
+  "type": "AnnotationPage",
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "items": [
+    {
+      "id": "https://annotations.allmaps.org/maps/24333037210b9211",
+      "type": "Annotation",
+      "@context": [
+        "http://iiif.io/api/extension/georef/1/context.json",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "motivation": "georeferencing",
+      "target": {
+        "type": "SpecificResource",
+        "source": {
+          "id": "https://wweronikad.github.io/serwis-ahmp/bochnia/ahmp_bochnia_b1_1",
+          "type": "ImageService3",
+          "height": 8032,
+          "width": 11575
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"11575\" height=\"8032\"><polygon points=\"166,85 170,7774 11403,7775 11407,82\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "transformation": {
+          "type": "polynomial",
+          "options": {
+            "order": 1
+          }
+        },
+        "features": [
+          {"type": "Feature", "properties": {"resourceCoords": [5083, 4400]}, "geometry": {"type": "Point", "coordinates": [20.428114566606013, 49.969165005308184]}},
+          {"type": "Feature", "properties": {"resourceCoords": [5061, 4285]}, "geometry": {"type": "Point", "coordinates": [20.428005249518748, 49.96938856320267]}},
+          {"type": "Feature", "properties": {"resourceCoords": [6010, 4137]}, "geometry": {"type": "Point", "coordinates": [20.43084148711401, 49.96975216777125]}},
+          {"type": "Feature", "properties": {"resourceCoords": [5016, 5188]}, "geometry": {"type": "Point", "coordinates": [20.428005483165748, 49.967637254875854]}},
+          {"type": "Feature", "properties": {"resourceCoords": [4886, 5437]}, "geometry": {"type": "Point", "coordinates": [20.427623375754592, 49.96715659653745]}},
+          {"type": "Feature", "properties": {"resourceCoords": [8230, 4374]}, "geometry": {"type": "Point", "coordinates": [20.43755905474876, 49.969485119985904]}}
+        ]
+      }
+    }
+  ]
+}

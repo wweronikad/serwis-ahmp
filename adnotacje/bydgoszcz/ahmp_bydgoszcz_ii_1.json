@@ -1,0 +1,58 @@
+{
+  "type": "AnnotationPage",
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "items": [
+    {
+      "id": "https://annotations.allmaps.org/maps/985d89211a440355",
+      "type": "Annotation",
+      "@context": [
+        "http://iiif.io/api/extension/georef/1/context.json",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "motivation": "georeferencing",
+      "target": {
+        "type": "SpecificResource",
+        "source": {
+          "id": "https://wweronikad.github.io/serwis-ahmp/bydgoszcz/ahmp_bydgoszcz_ii_1",
+          "type": "ImageService3",
+          "height": 5823,
+          "width": 8189
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"8189\" height=\"5823\"><polygon points=\"179,216 183,5704 8021,5697 8016,215\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "transformation": {
+          "type": "polynomial",
+          "options": {
+            "order": 1
+          }
+        },
+        "features": [
+          {"type": "Feature", "properties": {"resourceCoords": [3789, 3094]}, "geometry": {"type": "Point", "coordinates": [17.998867556183427, 53.12302654390344]}},
+          {"type": "Feature", "properties": {"resourceCoords": [3910, 3209]}, "geometry": {"type": "Point", "coordinates": [17.999189656413705, 53.12281511280687]}},
+          {"type": "Feature", "properties": {"resourceCoords": [3916, 3103]}, "geometry": {"type": "Point", "coordinates": [17.999207510316182, 53.1230193102757]}},
+          {"type": "Feature", "properties": {"resourceCoords": [3786, 3245]}, "geometry": {"type": "Point", "coordinates": [17.998837040307592, 53.12274503314445]}},
+          {"type": "Feature", "properties": {"resourceCoords": [3839, 3368]}, "geometry": {"type": "Point", "coordinates": [17.99901573140835, 53.12249666582656]}},
+          {"type": "Feature", "properties": {"resourceCoords": [3672, 3290]}, "geometry": {"type": "Point", "coordinates": [17.998461834677556, 53.12264473566202]}},
+          {"type": "Feature", "properties": {"resourceCoords": [3702, 3652]}, "geometry": {"type": "Point", "coordinates": [17.998574342146554, 53.121935310608194]}},
+          {"type": "Feature", "properties": {"resourceCoords": [3443, 3041]}, "geometry": {"type": "Point", "coordinates": [17.997750786478292, 53.12310864313386]}},
+          {"type": "Feature", "properties": {"resourceCoords": [3433, 2916]}, "geometry": {"type": "Point", "coordinates": [17.99770264272823, 53.123357386457485]}},
+          {"type": "Feature", "properties": {"resourceCoords": [5021, 2430]}, "geometry": {"type": "Point", "coordinates": [18.002725469630292, 53.12428039712114]}},
+          {"type": "Feature", "properties": {"resourceCoords": [5055, 2367]}, "geometry": {"type": "Point", "coordinates": [18.002828685261733, 53.12440822594388]}},
+          {"type": "Feature", "properties": {"resourceCoords": [6179, 2628]}, "geometry": {"type": "Point", "coordinates": [18.00641822241184, 53.12391647997268]}},
+          {"type": "Feature", "properties": {"resourceCoords": [6102, 2477]}, "geometry": {"type": "Point", "coordinates": [18.006156852301075, 53.124203570761075]}},
+          {"type": "Feature", "properties": {"resourceCoords": [5739, 1141]}, "geometry": {"type": "Point", "coordinates": [18.00503971395085, 53.12679019620492]}},
+          {"type": "Feature", "properties": {"resourceCoords": [5697, 1207]}, "geometry": {"type": "Point", "coordinates": [18.004904907041663, 53.12665791643882]}},
+          {"type": "Feature", "properties": {"resourceCoords": [5912, 1282]}, "geometry": {"type": "Point", "coordinates": [18.00557735206789, 53.126508528403825]}},
+          {"type": "Feature", "properties": {"resourceCoords": [4295, 4760]}, "geometry": {"type": "Point", "coordinates": [18.00041171705587, 53.119856710789804]}},
+          {"type": "Feature", "properties": {"resourceCoords": [4045, 4809]}, "geometry": {"type": "Point", "coordinates": [17.99962403095509, 53.11974993867622]}},
+          {"type": "Feature", "properties": {"resourceCoords": [6394, 4797]}, "geometry": {"type": "Point", "coordinates": [18.007157072167445, 53.119765888168196]}}
+        ]
+      }
+    }
+  ]
+}

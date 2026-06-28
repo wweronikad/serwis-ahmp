@@ -1,0 +1,57 @@
+{
+  "type": "AnnotationPage",
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "items": [
+    {
+      "id": "https://annotations.allmaps.org/maps/78c5d13ea1e3f5fe",
+      "type": "Annotation",
+      "@context": [
+        "http://iiif.io/api/extension/georef/1/context.json",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "motivation": "georeferencing",
+      "target": {
+        "type": "SpecificResource",
+        "source": {
+          "id": "https://wweronikad.github.io/serwis-ahmp/biecz/ahmp_biecz_1_7",
+          "type": "ImageService3",
+          "height": 5963,
+          "width": 8207
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"8207\" height=\"5963\"><polygon points=\"654,188 655,5633 7552,5632 7553,189\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "transformation": {
+          "type": "polynomial",
+          "options": {
+            "order": 1
+          }
+        },
+        "features": [
+          {"type": "Feature", "properties": {"resourceCoords": [4290, 2457]}, "geometry": {"type": "Point", "coordinates": [21.216822836042127, 49.739398305781435]}},
+          {"type": "Feature", "properties": {"resourceCoords": [948, 1577]}, "geometry": {"type": "Point", "coordinates": [21.09502657865562, 49.762546620814874]}},
+          {"type": "Feature", "properties": {"resourceCoords": [1168, 1179]}, "geometry": {"type": "Point", "coordinates": [21.10358558258241, 49.771880276655565]}},
+          {"type": "Feature", "properties": {"resourceCoords": [1329, 1270]}, "geometry": {"type": "Point", "coordinates": [21.10941950252419, 49.76962384483784]}},
+          {"type": "Feature", "properties": {"resourceCoords": [1396, 1177]}, "geometry": {"type": "Point", "coordinates": [21.111967206787824, 49.77171918867256]}},
+          {"type": "Feature", "properties": {"resourceCoords": [1638, 1075]}, "geometry": {"type": "Point", "coordinates": [21.12080059935238, 49.77406921762977]}},
+          {"type": "Feature", "properties": {"resourceCoords": [2094, 1248]}, "geometry": {"type": "Point", "coordinates": [21.137499395179674, 49.76961754727935]}},
+          {"type": "Feature", "properties": {"resourceCoords": [2625, 731]}, "geometry": {"type": "Point", "coordinates": [21.157598781891835, 49.7816131541322]}},
+          {"type": "Feature", "properties": {"resourceCoords": [6287, 1998]}, "geometry": {"type": "Point", "coordinates": [21.290551828071216, 49.74879932401768]}},
+          {"type": "Feature", "properties": {"resourceCoords": [7436, 3231]}, "geometry": {"type": "Point", "coordinates": [21.331410020437943, 49.71878733809169]}},
+          {"type": "Feature", "properties": {"resourceCoords": [7349, 3540]}, "geometry": {"type": "Point", "coordinates": [21.32787244289645, 49.71150932538259]}},
+          {"type": "Feature", "properties": {"resourceCoords": [5797, 3640]}, "geometry": {"type": "Point", "coordinates": [21.270923123750606, 49.71026973281013]}},
+          {"type": "Feature", "properties": {"resourceCoords": [6195, 4676]}, "geometry": {"type": "Point", "coordinates": [21.28425095247607, 49.685198996430216]}},
+          {"type": "Feature", "properties": {"resourceCoords": [5762, 5149]}, "geometry": {"type": "Point", "coordinates": [21.26780004991926, 49.67442940238979]}},
+          {"type": "Feature", "properties": {"resourceCoords": [5073, 5561]}, "geometry": {"type": "Point", "coordinates": [21.24205539918009, 49.6650456847988]}},
+          {"type": "Feature", "properties": {"resourceCoords": [4545, 3851]}, "geometry": {"type": "Point", "coordinates": [21.224714996513313, 49.706234323581356]}},
+          {"type": "Feature", "properties": {"resourceCoords": [3049, 2912]}, "geometry": {"type": "Point", "coordinates": [21.170699888434797, 49.729464917878175]}},
+          {"type": "Feature", "properties": {"resourceCoords": [2232, 2738]}, "geometry": {"type": "Point", "coordinates": [21.14101621713749, 49.734220112595466]}}
+        ]
+      }
+    }
+  ]
+}

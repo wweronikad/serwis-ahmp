@@ -1,0 +1,69 @@
+{
+  "type": "AnnotationPage",
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "items": [
+    {
+      "id": "https://annotations.allmaps.org/maps/c72bf72fb9b6bd89",
+      "type": "Annotation",
+      "@context": [
+        "http://iiif.io/api/extension/georef/1/context.json",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "motivation": "georeferencing",
+      "target": {
+        "type": "SpecificResource",
+        "source": {
+          "id": "https://wweronikad.github.io/serwis-ahmp/brzeg/ahmp_brzeg_33",
+          "type": "ImageService3",
+          "height": 2894,
+          "width": 4016
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"4016\" height=\"2894\"><polygon points=\"431,161 429,2728 3582,2725 3584,170\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "transformation": {
+          "type": "polynomial",
+          "options": {
+            "order": 1
+          }
+        },
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [1694, 877]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [17.469836808500617, 50.86168223380045]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [1851, 944]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [17.46651490421067, 50.863848843997175]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [1572, 1042]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [17.47489569422939, 50.863449270948564]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

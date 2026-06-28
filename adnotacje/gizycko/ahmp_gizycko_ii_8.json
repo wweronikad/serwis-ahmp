@@ -1,0 +1,248 @@
+{
+  "type": "AnnotationPage",
+  "@context": "http://www.w3.org/ns/anno.jsonld",
+  "items": [
+    {
+      "id": "https://annotations.allmaps.org/maps/c1fdaf02e67ded37",
+      "type": "Annotation",
+      "@context": [
+        "http://iiif.io/api/extension/georef/1/context.json",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "motivation": "georeferencing",
+      "target": {
+        "type": "SpecificResource",
+        "source": {
+          "id": "https://wweronikad.github.io/serwis-ahmp/gizycko/ahmp_gizycko_ii_7-8",
+          "type": "ImageService3",
+          "height": 5769,
+          "width": 4040
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"4040\" height=\"5769\"><polygon points=\"200,221 200,2711 1926,2709 1926,209\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "transformation": {
+          "type": "polynomial",
+          "options": {
+            "order": 1
+          }
+        },
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                1063,
+                1225
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                21.740796445231695,
+                54.04186647872132
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                1390,
+                1649
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                21.75087267143053,
+                54.03575683692154
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                859,
+                1767
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                21.739036543786142,
+                54.03246800300713
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                1506,
+                754
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                21.749237769578173,
+                54.049763246098955
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                500,
+                2078
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                21.729277469553836,
+                54.0259955075409
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                1812,
+                1821
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                21.761742966880803,
+                54.0345939092523
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "https://annotations.allmaps.org/maps/3b72c9aa87fd1874",
+      "type": "Annotation",
+      "@context": [
+        "http://iiif.io/api/extension/georef/1/context.json",
+        "http://iiif.io/api/presentation/3/context.json"
+      ],
+      "motivation": "georeferencing",
+      "target": {
+        "type": "SpecificResource",
+        "source": {
+          "id": "https://wweronikad.github.io/serwis-ahmp/gizycko/ahmp_gizycko_ii_7-8",
+          "type": "ImageService3",
+          "height": 5769,
+          "width": 4040
+        },
+        "selector": {
+          "type": "SvgSelector",
+          "value": "<svg width=\"4040\" height=\"5769\"><polygon points=\"201,3381 191,5560 2995,5560 2991,3383\" /></svg>"
+        }
+      },
+      "body": {
+        "type": "FeatureCollection",
+        "transformation": {
+          "type": "polynomial",
+          "options": {
+            "order": 1
+          }
+        },
+        "features": [
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                1094,
+                4410
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                21.73891840333542,
+                54.032459031601775
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                1893,
+                4656
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                21.75100387961521,
+                54.03569389172077
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                2346,
+                5209
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                21.762247264617116,
+                54.034428443928704
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                2614,
+                4193
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                21.75427910198067,
+                54.043346461633746
+              ]
+            }
+          },
+          {
+            "type": "Feature",
+            "properties": {
+              "resourceCoords": [
+                531,
+                4113
+              ]
+            },
+            "geometry": {
+              "type": "Point",
+              "coordinates": [
+                21.729562354146424,
+                54.03095653973015
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
