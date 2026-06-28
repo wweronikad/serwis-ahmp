@@ -1,0 +1,20 @@
+{
+  "@context": "http://iiif.io/api/image/3/context.json",
+  "id": "https://wweronikad.github.io/serwis-ahmp/lidzbark-warminski/ahmp_lidzbark_warminski_4",
+  "type": "ImageService3",
+  "profile": "level0",
+  "protocol": "http://iiif.io/api/image",
+  "tiles": [
+    {
+      "scaleFactors": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "width": 256
+    }
+  ],
+  "width": 2428,
+  "height": 3500
+}
