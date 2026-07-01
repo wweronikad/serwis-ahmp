@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/image/3/context.json",
-  "id": "https://wweronikad.github.io/serwis-ahmp/wieliczka/ahmp_wieliczka_b3_3",
+  "id": "https://raw.githubusercontent.com/wweronikad/serwis-ahmp/main/wieliczka/ahmp_wieliczka_b3_3",
   "type": "ImageService3",
   "profile": "level0",
   "protocol": "http://iiif.io/api/image",

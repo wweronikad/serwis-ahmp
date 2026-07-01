@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/image/3/context.json",
-  "id": "https://wweronikad.github.io/serwis-ahmp/zamosc/ahmp_zamosc_1_20",
+  "id": "https://raw.githubusercontent.com/wweronikad/serwis-ahmp/main/zamosc/ahmp_zamosc_1_20",
   "type": "ImageService3",
   "profile": "level0",
   "protocol": "http://iiif.io/api/image",

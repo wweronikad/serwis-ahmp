@@ -1,6 +1,6 @@
 {
   "@context": "http://iiif.io/api/image/3/context.json",
-  "id": "https://wweronikad.github.io/serwis-ahmp/tarnow/ahmp_tarnow_1_13",
+  "id": "https://raw.githubusercontent.com/wweronikad/serwis-ahmp/main/tarnow/ahmp_tarnow_1_13",
   "type": "ImageService3",
   "profile": "level0",
   "protocol": "http://iiif.io/api/image",
