@@ -1,24 +1,14 @@
-# Biecz 1.6 — zasob IIIF do Allmaps (KOLORY POPRAWIONE)
+# serwis-ahmp
 
-Wersja z prawidlowymi barwami. Poprzednia miala odwrocone kolory (obraz w PDF
-byl w CMYK i konwersja go znegowala) — ta jest wyrenderowana przez silnik PDF,
-wiec kolory sa naturalne.
+Kafle IIIF (Image API 3.0, poziom 0) i adnotacje georeferencyjne Allmaps dla map Atlasu Historycznego Miast Polskich, wykorzystywane przez serwis [`serwis-ahmp-infrastruktura`](https://github.com/wweronikad/serwis-ahmp-infrastruktura).
 
-Pole "id" w info.json jest juz ustawione na:
-  https://wweronikad.github.io/serwis-ahmp/biecz_1_6
-Jesli NIE zmieniasz nazwy uzytkownika/repozytorium, NIC nie musisz robic ze
-skryptem set-id.sh.
+## Zawartość
 
-## Co zrobic
-1. W repozytorium "serwis-ahmp" USUN stary folder biecz_1_6 (mial zle kolory).
-2. Wgraj nowy folder biecz_1_6/ z tej paczki (Add file -> Upload files lub git push).
-3. Pages juz dziala, wiec po chwili sprawdz w przegladarce:
-   https://wweronikad.github.io/serwis-ahmp/biecz_1_6/info.json
-4. W Allmaps Editor zaladuj ten sam URL info.json. Poniewaz obraz ma teraz inne
-   wymiary (4104 x 2982), zrob maske i punkty kontrolne od nowa
-   (poprzednie i tak byly na blednym obrazie).
+| Ścieżka | Zawartość |
+|---|---|
+| `<mapa>/info.json` + `<mapa>/<region>,<region>,<szer>,<wys>/<rozmiar>/0/default.jpg` | kafle IIIF danej mapy (jeden katalog na mapę, nazwany identyfikatorem mapy z `cities.js`) |
+| `adnotacje/<miasto>/<mapa>.json` | adnotacje georeferencyjne Allmaps (maska, punkty kontrolne) dla danej mapy |
 
-## Gdybys zmieniala nazwe repo
-   ./set-id.sh https://TWOJA-NAZWA.github.io/NOWE-REPO
+Repozytorium jest publikowane przez GitHub Pages pod adresem `https://wweronikad.github.io/serwis-ahmp/`; część map (przekraczających limit 1 GB Pages) jest pobierana bezpośrednio z `raw.githubusercontent.com`.
 
-Zrodlo: raster z PDF wyrenderowany w 150 dpi (= natywna rozdzielczosc obrazu).
+Kafle wygenerowano skryptem `map_to_iiif.py` z repozytorium `serwis-ahmp-infrastruktura` (skanów PDF/JPG poszczególnych zeszytów Atlasu).
